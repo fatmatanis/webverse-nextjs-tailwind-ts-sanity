@@ -15,10 +15,10 @@ const Project = async ({ params }: Props) => {
 
   return (
     <div>
-      <header className="flex items-center justify-between">
+      <header className="flex items-center justify-between gap-4">
         <h1
           className="bg-gradient-to-r from-pink-500 via-red-700 to-purple-600 bg-clip-text
-         text-transparent text-4xl leading-normal drop-shadow font-extrabold"
+         text-transparent text-3xl sm:text-4xl leading-normal drop-shadow font-extrabold"
         >
           {project.name}
         </h1>
@@ -27,13 +27,13 @@ const Project = async ({ params }: Props) => {
           title="View Project"
           target="_blank"
           rel="noopener noreferrer"
-          className="bg-gray-100 rounded-lg text-gray-500 font-bold py-3 px-4 whitespace-nowrap
+          className="bg-gray-100 rounded-lg text-gray-500 font-bold sm:text-lg text-sm py-3 px-4 whitespace-nowrap
            hover:bg-pink-500 hover:text-pink-100 transition"
         >
           View Project
         </a>
       </header>
-      <div className="text-lg text-gray-700 mt-5">
+      <div className="sm:text-lg text-md text-gray-700 mt-5">
         <PortableText value={project.content} />
       </div>
       <Image

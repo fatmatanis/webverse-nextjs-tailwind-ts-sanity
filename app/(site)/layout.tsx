@@ -23,10 +23,10 @@ export default async function RootLayout({
   return (
     <html lang="en">
       <body className={`max-w-3xl mx-auto py-8 ${inter.variable} font-sans`}>
-        <header className="flex items-center justify-between">
+        <header className="flex items-center justify-between px-4 ">
           <Link
             href="/"
-            className="bg-gradient-to-r from-pink-500 via-red-700 to-purple-600 bg-clip-text text-transparent text-lg font-bold px-4"
+            className="bg-gradient-to-r from-pink-500 via-red-700 to-purple-600 bg-clip-text text-transparent text-lg font-bold"
           >
             Fatmisko
           </Link>
