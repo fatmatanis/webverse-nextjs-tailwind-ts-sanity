@@ -21,7 +21,7 @@ export default async function RootLayout({
         <header className="flex items-center justify-between">
           <Link
             href="/"
-            className="bg-gradient-to-r from-orange-400 via-red-500 to-purple-600 bg-clip-text text-transparent text-lg font-bold px-4"
+            className="bg-gradient-to-r from-pink-500 via-red-700 to-purple-600 bg-clip-text text-transparent text-lg font-bold px-4"
           >
             Fatmisko
           </Link>

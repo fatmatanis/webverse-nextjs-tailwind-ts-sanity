@@ -17,7 +17,7 @@ const Project = async ({ params }: Props) => {
     <div>
       <header className="flex items-center justify-between">
         <h1
-          className="bg-gradient-to-r from-orange-400 via-red-500 to-purple-600 bg-clip-text
+          className="bg-gradient-to-r from-pink-500 via-red-700 to-purple-600 bg-clip-text
          text-transparent text-4xl leading-normal drop-shadow font-extrabold"
         >
           {project.name}
